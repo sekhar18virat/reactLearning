@@ -8,7 +8,7 @@ function App() {
       <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
       <Greet name = "react 2" value = "react"/>
-      <Welcome />
+      <Welcome name = "Sekhar" value = "classComponent"/>
     </div>
   );
 }
