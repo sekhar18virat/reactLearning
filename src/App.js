@@ -6,13 +6,14 @@ import Message from './components/message';
 import Counter from './components/Counter';
 import FunctionEventHandling from './components/FunctionEventHandling';
 import EventBinding from './components/EventBinding';
+import Parent from './components/Parent';
 function App() {
   return (
     <div className="App">
       {/* <Counter /> */}
       {/* <FunctionEventHandling /> */}
-      <EventBinding />
-
+      {/* <EventBinding /> */}
+  <Parent />
       {/* <Message /> */}
       {/* <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
