@@ -4,10 +4,12 @@ import Greet from './components/Greet.js'
 import Welcome from './components/welcome';
 import Message from './components/message';
 import Counter from './components/Counter';
+import FunctionEventHandling from './components/FunctionEventHandling';
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
+      <FunctionEventHandling />
       {/* <Message /> */}
       {/* <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
