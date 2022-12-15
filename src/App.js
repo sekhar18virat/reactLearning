@@ -7,13 +7,15 @@ import Counter from './components/Counter';
 import FunctionEventHandling from './components/FunctionEventHandling';
 import EventBinding from './components/EventBinding';
 import Parent from './components/Parent';
+import NamedLists from './components/NamedLists';
 function App() {
   return (
     <div className="App">
       {/* <Counter /> */}
       {/* <FunctionEventHandling /> */}
       {/* <EventBinding /> */}
-  <Parent />
+  {/* <Parent /> */}
+ <NamedLists />
       {/* <Message /> */}
       {/* <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
