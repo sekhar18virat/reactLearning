@@ -13,6 +13,8 @@ import FormValue from './components/FormValue';
 import ReactFragments from './components/ReactFragments';
 import RefsUsage from './components/RefsUsage';
 import Frchild from './components/Frchild';
+import HigherOrderComponents from './components/HigherOrderComponents';
+import HoverCounter from './components/HoverCounter';
 function App() {
   return (
     <div className="App">
@@ -25,7 +27,10 @@ function App() {
  {/* <FormValue /> */}
  {/* <ReactFragments /> */}
  {/* <RefsUsage /> */}
- <Frchild />
+ {/* <Frchild />
+  */}
+  <HigherOrderComponents />
+  <HoverCounter />
       {/* <Message /> */}
       {/* <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
