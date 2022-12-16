@@ -10,6 +10,7 @@ import Parent from './components/Parent';
 import NamedLists from './components/NamedLists';
 import Form from './components/FormValue';
 import FormValue from './components/FormValue';
+import ReactFragments from './components/ReactFragments';
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,8 @@ function App() {
   {/* <Parent /> */}
  {/* <NamedLists /> */}
  {/* console.log("Calling form ") */}
- <FormValue />
+ {/* <FormValue /> */}
+ <ReactFragments />
       {/* <Message /> */}
       {/* <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
