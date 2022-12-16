@@ -8,6 +8,8 @@ import FunctionEventHandling from './components/FunctionEventHandling';
 import EventBinding from './components/EventBinding';
 import Parent from './components/Parent';
 import NamedLists from './components/NamedLists';
+import Form from './components/FormValue';
+import FormValue from './components/FormValue';
 function App() {
   return (
     <div className="App">
@@ -15,7 +17,9 @@ function App() {
       {/* <FunctionEventHandling /> */}
       {/* <EventBinding /> */}
   {/* <Parent /> */}
- <NamedLists />
+ {/* <NamedLists /> */}
+ {/* console.log("Calling form ") */}
+ <FormValue />
       {/* <Message /> */}
       {/* <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
