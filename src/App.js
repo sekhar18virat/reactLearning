@@ -12,6 +12,7 @@ import Form from './components/FormValue';
 import FormValue from './components/FormValue';
 import ReactFragments from './components/ReactFragments';
 import RefsUsage from './components/RefsUsage';
+import Frchild from './components/Frchild';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,8 @@ function App() {
  {/* console.log("Calling form ") */}
  {/* <FormValue /> */}
  {/* <ReactFragments /> */}
- <RefsUsage />
+ {/* <RefsUsage /> */}
+ <Frchild />
       {/* <Message /> */}
       {/* <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
