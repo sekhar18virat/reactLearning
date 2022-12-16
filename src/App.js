@@ -11,6 +11,7 @@ import NamedLists from './components/NamedLists';
 import Form from './components/FormValue';
 import FormValue from './components/FormValue';
 import ReactFragments from './components/ReactFragments';
+import RefsUsage from './components/RefsUsage';
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,8 @@ function App() {
  {/* <NamedLists /> */}
  {/* console.log("Calling form ") */}
  {/* <FormValue /> */}
- <ReactFragments />
+ {/* <ReactFragments /> */}
+ <RefsUsage />
       {/* <Message /> */}
       {/* <Greet name = "sekhar" value = "sekhar"/>
       <Greet name = "react" value = "react"/>
